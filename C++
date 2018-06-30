@@ -1,0 +1,24 @@
+// This program calculates the amount of pay that
+// will be contributed to a retirement plan if 5%,
+// 7%, or 10% of monthlypay is withheld.
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+monthlypay = 8000.0, contribution;
+
+contribution = monthlypay * 0.05;
+cout << "5 percent is " << contribution
+     << " per month.\n";
+     
+contribution = monthlypay * 0.07;
+cout << "5 percent is " << contribution
+     << " per month.\n";
+     
+contribution = monthlypay * 0.1;
+cout << "5 percent is " << contribution
+     << " per month.\n";
+     
+return 0;
+}
